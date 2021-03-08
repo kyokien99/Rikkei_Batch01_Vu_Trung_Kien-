@@ -1,0 +1,101 @@
+body {
+    color: #333;
+    font: 12px "Arial",Arial,Helvetica,sans-serif;
+    background: url(images/bg_pattern.jpg);
+    width: 1000px;
+    margin: auto !important;
+    /*margin-top: 0px;*/
+    /*margin-right: auto;*/
+    /*margin-bottom: 0px;*/
+    /*margin-left: auto;*/
+}
+.header .cart {
+    background: url(images/cart.png) no-repeat scroll left center rgba(0,0,0,0);
+    color: #000;
+    height: 55px;
+    position: absolute;
+    right: 0;
+    text-indent: -500em;
+    text-transform: uppercase;
+    top: 20px;
+    width: 55px;
+    cursor: pointer;
+}
+.header .logo {
+    display: block;
+    height: 90px;
+    left: -1px;
+    position: absolute;
+    top: 30px;
+    width: 514px;
+}
+.col-sm-8 {
+    display: flex;
+    list-style: none;
+}
+.row .col-sm-8 >li>a:before{
+    content: "|";
+    padding: 0 15px;
+}
+.col-sm-8 >li:first-child a:before{
+    content: "";
+    padding: 0 15px;
+}
+.col-sm-4 {
+    display: flex;
+    list-style: none;
+}
+.col-sm-4 >li>a:before{
+    content: "|";
+    padding: 0 15px;
+}
+.col-sm-4 >li:first-child a:before {
+    content: "";
+}
+.row .col-sm-2 >li>a:before {
+    content: "|";
+    padding: 0 15px;
+}
+.menu .danhsach {
+    display: flex;
+    position: relative;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+
+}
+.danhsach >li:first-child a:before{
+    content: "";
+}
+.header .search {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 90px;
+    width: 320px;
+}
+.header .search .text {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    color: #333;
+    float: left;
+    margin: 6px 0 0 8px;
+    padding: 2px;
+    width: 300px;
+}
+.header .search .submit {
+    background: url(images/searchbg.png) no-repeat scroll center center rgba(0,0,0,0);
+    border: medium none;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: -500em;
+    width: 30px;
+}
